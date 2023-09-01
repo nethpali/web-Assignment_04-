@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case_04</title>
+    <style>
+        section>div{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: 2px solid red;
+            border-radius: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            animation: water-drop  2s infinite;
+            animation-name: My-animation2;
+            animation-duration: 2s;
+        }
+        @keyframes My-animation2 {
+            from{
+                width: 20px;
+            }
+            to{
+                width: 200px;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+   <section>
+       <div></div>
+   </section>
+</body>
+</html>
